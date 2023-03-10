@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" rel="stylesheet"></head>
+    <link rel="stylesheet" href="../common.css">
+<style>
+    .clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+    }
+    .header{
+        width: 100%;
+        
+    }
+    .header #top{
+        width: 100%;
+        margin: 10px;
+        margin-left: 205px; 
+        font-size: 0.8em;
+        font-weight: 1000;
+        color: #777
+    }
+    .header #mid{
+       height: 33px;
+        width: 100%;
+        background: #033075;         
+    }
+    .header #mid #mid-p{
+        position: absolute; 
+        right: 14%;;        
+    }
+    .header .mid-left li{
+        float: left;
+        border-right: white solid 1px;
+        color: white;
+        width: 131px;
+        height: 15px;
+        font-size: 0.8em;
+        font-weight: 1000;
+        margin-top: 8px;
+        margin-left: 150px; 
+    }
+    .header .mid-left li:nth-child(2){
+        margin-left: 20px;
+        border:none
+    }
+    .header .mid-left a{
+        letter-spacing: -1px;
+        text-align: center;       
+    }
+    .header .mid-left span{
+        font-size: 0.7em;
+        margin-left: 3px;
+    }
+    .header .mid-right li{    
+        float:left;
+        border-right: 1px white solid;
+        height: 15px;
+        color: white;
+        margin-top: 8px;
+        padding: 0px 15px;
+        font-size: 0.8em;
+        font-weight: 1000;
+        width: 80px;
+        position: relative;
+        left:420px;
+        width: fit-content;       
+    }
+    .header .mid-right li:nth-child(5){
+        border:none
+    }
+    .header .mid-right a{
+        letter-spacing: -1px;
+        text-align: center;
+    }
+    .header #bot{
+    }
+    .header #bot .gov-img{
+        width: 20%;
+        height: 100px;
+        float: left;
+    }
+    .header #bot .bot-right{
+        float: left;
+        height: 100px;
+        width: 80%;
+        position: relative;
+        left: 35px;
+
+    }
+    .header #bot .bot-right li{
+        float: left;
+        margin: 35px 30px 35px ;
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+    .header #bot .bot-right input{
+        border: 3px solid #3352a4;
+        border-radius: 30px;
+        width: 300px;
+        height: 45px;
+        position: relative;
+        top: 25px;
+        left: 35px;
+    }
+    
+
+
+</style>
+
+    <body>
+    <section>
+        <div class="header ">
+            <ul id="top">
+                <li> 이 누리집은 대한민국 공식 전자정부 누리집입니다. </li>
+            </ul>
+            <ul id="mid" class="clearfix">
+                <div class="mid-left">
+                    <li>For Foreigners<span>▼</span></li>
+                    <li><a>어린이</a></li>
+                </div>
+               
+                <div class="mid-right">
+                    <li><a>로그인</a></li>
+                    <li><a>회원가입</a></li>
+                    <li><a>정부24소개</a></li>
+                    <li><a>누리집 안내지도</a></li>
+                    <li><a>화면크기</a></li>
+                </div>
+            </ul>
+            <ul id="bot" class="clearfix">
+                <div class="gov-img">
+                    <li>정부24이미지</li>
+                </div> 
+                <div class="bot-right">
+                    <li>서비스</li>
+                    <li>보조금24</li>
+                    <li>정책정보</li>
+                    <li>고객센터</li>
+                    <li>MyGOV</li>
+                    <input type="text">
+                </div>    
+            </ul>
+        </div>
+    </section>
+    
+</body>
+</html>
