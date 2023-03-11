@@ -135,6 +135,10 @@ body {
     padding: 15px;
     display: block;
     margin: 29px auto;
+    cursor: pointer;
+}
+.wrapper .loginbox form.login button:hover {
+    text-decoration: underline;
 }
 .wrapper .loginbox .joinbox {
     width: 346px;
@@ -156,5 +160,8 @@ body {
 }
 .wrapper .loginbox .joinbox .joinmbr {
     float: right;
+}
+.wrapper .loginbox .joinbox a:hover {
+    text-decoration: underline;
 }
 /* --------------------로그인박스 끝--------------------------- */
