@@ -8,12 +8,12 @@ footer .cont {
     padding-bottom: 20px;
 }
 footer .cont .sitemap {
-    width: 1300px;
+    width: 1280px;
     margin: 0 auto;
 }
 footer .cont .sitemap h2 {
     line-height: 70px;
-    margin-right: 70px;
+    margin-right: 60px;
     font-weight: 700;
 }
 footer .cont .sitemap .linklist {
@@ -32,7 +32,7 @@ footer .cont .sitemap .linklist .linkbox .link:first-child {
     height: 25px;
     margin-left: 0;
     margin-right: 5px;
-    background: url("image/ico-swiper-next2.png") no-repeat;
+    background: url("image/footer/ico-swiper-next2.png") no-repeat;
     transform: rotate(180deg);
     margin-top: 27px;
     opacity: 0.5;
@@ -45,7 +45,7 @@ footer .cont .sitemap .linklist .linkbox .link:last-child {
     width: 15px;
     height: 25px;
     margin-left: 17px;
-    background: url("image/ico-swiper-next2.png") no-repeat;
+    background: url("image/footer/ico-swiper-next2.png") no-repeat;
     margin-top: 27px;
     opacity: 0.5;
     border: none;
@@ -54,19 +54,19 @@ footer .cont .sitemap .linklist .linkbox .link:last-child:hover {
     opacity: 1;
 }
 footer .cont .sitemap .linklist .linkbox .link#rev24 {
-    background: url("image/rev24.jpg");
+    background: url("image/footer/rev24.jpg");
 }
 footer .cont .sitemap .linklist .linkbox .link#job {
-    background: url("image/job.jpg");
+    background: url("image/footer/job.jpg");
 }
 footer .cont .sitemap .linklist .linkbox .link#family {
-    background: url("image/family.png");
+    background: url("image/footer/family.png");
 }
 footer .cont .sitemap .linklist .linkbox .link#doc {
-    background: url("image/doc.jpg");
+    background: url("image/footer/doc.jpg");
 }
 footer .cont .sitemap .linklist .linkbox .link#on {
-    background: url("image/on.jpg");
+    background: url("image/footer/on.jpg");
 }
 /* -------------------여기까지 footer 첫번째 라인------------------------ */
 footer .container {
@@ -121,26 +121,26 @@ footer .container .topper .top .sns .frame a {
     /* background: #000; */
 }
 footer .container .topper .top .sns .frame:nth-child(1) a {
-    background: url("image/logo_sns.png") no-repeat;
+    background: url("image/footer/logo_sns.png") no-repeat;
     background-size: cover;
 }
 footer .container .topper .top .sns .frame:nth-child(2) a {
-    background: url("image/logo_sns.png") no-repeat;
+    background: url("image/footer/logo_sns.png") no-repeat;
     background-size: cover;
     background-position: -35px;
 }
 footer .container .topper .top .sns .frame:nth-child(3) a {
-    background: url("image/logo_sns.png") no-repeat;
+    background: url("image/footer/logo_sns.png") no-repeat;
     background-size: cover;
     background-position: -70px;
 }
 footer .container .topper .top .sns .frame:nth-child(4) a {
-    background: url("image/logo_sns.png") no-repeat;
+    background: url("image/footer/logo_sns.png") no-repeat;
     background-size: cover;
     background-position: -105px;
 }
 footer .container .topper .top .sns .frame:nth-child(5) a {
-    background: url("image/logo_sns.png") no-repeat;
+    background: url("image/footer/logo_sns.png") no-repeat;
     background-size: cover;
     background-position: -140px;
 }
@@ -159,7 +159,7 @@ footer .container .contact .bottom {
 footer .container .contact .blank {
     width: 20%;
     height: 235px;
-    background: url("image/gov24.png") no-repeat left top / 115px;
+    background: url("image/footer/gov24.png") no-repeat left top / 115px;
 }
 footer .container .contact .callcenter1 {
     width: 30%;
@@ -207,7 +207,7 @@ footer .container .contact .link {
 footer .container .contact .link a {
     display: block;
     padding-bottom: 20px ;
-    background: url("image/ico-swiper-next2.png") no-repeat 290px 3px / 5px;
+    background: url("image/footer/ico-swiper-next2.png") no-repeat 290px 3px / 5px;
 }
 footer .container .contact .link a:hover {
     font-weight: 700;
@@ -219,7 +219,7 @@ footer .container .copy {
     padding: 20px 110px 50px;
     color: rgb(107, 107, 107);
     float: right;
-    background: url("image/wa.png") no-repeat;
+    background: url("image/footer/wa.png") no-repeat;
     background-size: 65px;
     background-position-x: 530px;
     
