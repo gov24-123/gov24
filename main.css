@@ -8,8 +8,10 @@ body {
 }
 .wrapper .infobox {
     width: 66%;
+    float: left;
 }
 .wrapper .infobox .adlink {
+    width: 840px;
     height: 310px;
     border-radius: 15px;
     background: url("image/main/adlink.png");
@@ -49,10 +51,7 @@ body {
     background: url("image/main/white-swiper.png") no-repeat center;
     transform: rotate(180deg);
 }
-.wrapper .loginbox {
-    width: 34%;
-}
-/* ----------------------배너------------------------------------ */
+/* ----------------------배너 끝------------------------------------ */
 .wrapper .infobox .searchinfo {
     width: 840px;
     margin: 30px 0 35px;
@@ -103,4 +102,59 @@ body {
     top: 20px;
     cursor: pointer;
 }
-/* ----------------------검색란------------------------------- */
+/* ----------------------검색란 끝------------------------------- */
+.wrapper .loginbox {
+    width: 400px;
+    height: 402px;
+    margin-left: 35px;
+    float: left;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px rgba(223, 223, 223, 0.581);
+    background: url("image/main/ico-main-login.png") no-repeat center 61px;
+}
+.wrapper .loginbox h2.login{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    height: 200px;
+    padding-top: 163px;
+    padding-bottom: 58px;
+    line-height: 1.3em;
+
+}
+.wrapper .loginbox form.login button {
+    width: 346px;
+    background: #3382e9;
+    border: 1px solid #3382e9;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 15px;
+    display: block;
+    margin: 29px auto;
+}
+.wrapper .loginbox .joinbox {
+    width: 346px;
+    margin: 0 auto;
+    color: gray;
+}
+.wrapper .loginbox .joinbox .findmbr {
+    float: left;
+    
+}
+.wrapper .loginbox .joinbox .bar {
+    width: 10px;
+    height: 11px;
+    margin: 2px 10px 2px 0;
+    float: left;
+    display: block;
+    border-right: 1px solid lightgray;
+
+}
+.wrapper .loginbox .joinbox .joinmbr {
+    float: right;
+}
+/* --------------------로그인박스 끝--------------------------- */
