@@ -4,7 +4,7 @@ body {
 }
 .wrapper {
     width: 1280px;
-    margin: 25px auto;
+    margin: 25px auto 0;
 }
 .wrapper .infobox {
     width: 66%;
@@ -165,3 +165,110 @@ body {
     text-decoration: underline;
 }
 /* --------------------로그인박스 끝--------------------------- */
+.gray {
+    background: #f5f7fa;
+    padding: 40px 0;
+}
+.gray .wrapper2 {
+    width: 1280px;
+    margin: 0 auto;
+}
+.gray .wrapper2 .freq h2 {
+    font-size: 18px;
+    font-weight: 700;
+    float: left;
+}
+.gray .wrapper2 .freq h4 {
+    color: rgb(113, 113, 113);
+    float: right;
+    font-weight: 700;
+    margin-right: 45px;
+}
+.gray .wrapper2 .freq h4:hover {
+    text-decoration: underline;
+}
+.blue {
+    color: #3382e9;
+}
+.gray .wrapper2 .freq-link {
+    margin: 25px auto 15px;
+}
+.gray .wrapper2 .freq-link .freq-arrow {
+    display: block;
+    float: left;
+    background: url("image/main/ico-swiper-next2.png") no-repeat left center;
+    opacity: 0.4;
+    width: 12px;
+    height: 140px;
+}
+.gray .wrapper2 .freq-link .freq-arrow1 {
+    transform: rotate(180deg);
+    margin-right: 17px;
+}
+.gray .wrapper2 .freq-link .freqlink {
+    width: 136px;
+    height: 140px;
+    background: #ffffff;
+    margin-right: 17px;
+    border-radius: 15px;
+    display: block;
+    float: left;
+}
+
+.gray .wrapper2 .freq-link .freqlink:hover p{
+    text-decoration: underline;
+    font-weight: 700;
+}
+.gray .wrapper2 .freq-link .freqlink span {
+    color: #ffffff;
+    display: block;
+    background: #009973;;
+    font-weight: 700;
+    line-height: 2em;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 6px;
+    margin: 20px auto;
+}
+.gray .wrapper2 .freq-link .freqlink:hover {
+    border: 2px solid #009973;
+}
+.gray .wrapper2 .freq-link .freqlink span#pink {
+    background: #ff3388;
+}
+.gray .wrapper2 .freq-link a.pink:hover {
+    border: 2px solid #ff3388;
+}
+.gray .wrapper2 .freq-link .freqlink span#purple {
+    background: #6839e9;
+}
+.gray .wrapper2 .freq-link a.purple:hover {
+    border: 2px solid #6839e9;
+}
+.gray .wrapper2 .freq-link .freqlink p {
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.4em;
+}
+.gray .wrapper2 .linkbar {
+    width: 50px;
+    height: 5px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+}
+.gray .wrapper2 .linkbar .bar {
+    width: 6px;
+    height: 6px;
+    display: block;
+    float: left;
+    background: lightgray;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+.gray .wrapper2 .linkbar .bar:first-child {
+    background: #3382e9;;
+    margin-left: 0;
+    width: 17px;
+}
+/* ---------------------자주찾는 서비스 끝 */
+
