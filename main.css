@@ -193,7 +193,7 @@ body {
 .gray .wrapper2 .freq-link {
     margin: 25px auto 15px;
 }
-.gray .wrapper2 .freq-link .freq-arrow {
+.arrow {
     display: block;
     float: left;
     background: url("image/main/ico-swiper-next2.png") no-repeat left center;
@@ -201,7 +201,7 @@ body {
     width: 12px;
     height: 140px;
 }
-.gray .wrapper2 .freq-link .freq-arrow1 {
+.arrow1 {
     transform: rotate(180deg);
     margin-right: 17px;
 }
@@ -256,7 +256,7 @@ body {
     margin: 0 auto;
     margin-bottom: 22px;
 }
-.gray .wrapper2 .linkbar .bar {
+.slidebar {
     width: 6px;
     height: 6px;
     display: block;
@@ -265,10 +265,223 @@ body {
     margin-left: 10px;
     border-radius: 50px;
 }
-.gray .wrapper2 .linkbar .bar:first-child {
-    background: #3382e9;;
+.slidebar:first-child {
+    background: #3382e9;
     margin-left: 0;
     width: 17px;
 }
-/* ---------------------자주찾는 서비스 끝 */
+/* ---------------------자주찾는 서비스 끝-------------------------- */
+.wrapper3 {
+    width: 1280px;
+    margin: 40px auto 0;
+}
+.wrapper3 .leftbox {
+    width: 840px;
+    border: 1px solid rgba(211, 211, 211, 0.658);
+    border-radius: 20px;
+    padding: 25px;
+    float: left;
+}
+.wrapper3 h2 {
+    width: fit-content;
+    font-weight: 700;
+    font-size: 18px;
+    float: left;
+}
+.wrapper3 .onestop-box .onestop-titleline span.bar {
+    width: 10px;
+    height: 11px;
+    margin: 2px 10px 2px 0;
+    float: right;
+    display: block;
+    border-right: 1px solid #3382e956;
+}
+.wrapper3 .onestop-box .onestop-titleline > a {
+    display: block;
+    float: right;
+    font-size: 13px;
+}
+.wrapper3 .onestop-box .onestop-titleline > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.wrapper3 .onestop-box .onestop-titleline a img {
+    width: 12px;
+}
+.wrapper3 .onestop-box .onestop-title {
+    font-size: 17px;
+    width: fit-content;
+}
+.wrapper3 .onestop-box .onestop-link a.onestoplink {
+    display: block;
+    float: left;
+    width: 75px;
+    /* height: 140px; */
+    margin-right: 32px;
+}
+.wrapper3 .onestop-box .onestop-link a.onestoplink .frame {
+    width: 70px;
+    border-radius: 30px;
+    height: 70px;
+    margin-top: 30px;
+}
+.wrapper3 .onestop-box .onestop-link a.onestoplink .frame1 {
+    background: url("image/main/전입신고.png") no-repeat center;
+    background-color: #f5f7fa;
+}
+.wrapper3 .onestop-box .onestop-link a.onestoplink .frame2 {
+    background: url("image/main/맘편한.png") no-repeat center;
+    background-color: #f5f7fa;
+}
+.wrapper3 .onestop-box .onestop-link a.onestoplink .frame3 {
+    background: url("image/main/행복출산.png") no-repeat center;
+    background-color: #f5f7fa;
+}
+.wrapper3 .onestop-box .onestop-link a.onestoplink .frame4 {
+    background: url("image/main/온종일.png") no-repeat center;
+    background-color: #f5f7fa;
+}
+.wrapper3 .onestop-box .onestop-link a.onestoplink .frame5 {
+    background: url("image/main/꿈.png") no-repeat center;
+    background-color: #f5f7fa;
+}
+.wrapper3 .onestop-box .onestop-link a.onestoplink .frame6 {
+    background: url("image/main/취업.png") no-repeat center;
+    background-color: #f5f7fa;
+}
+.wrapper3 .onestop-box .onestop-link a.onestoplink .frame7 {
+    background: url("image/main/노후.png") no-repeat center;
+    background-color: #f5f7fa;
+}
+.wrapper3 .onestop-box .onestop-link a.onestoplink-end {
+    margin-right: 17px;
+}
+.wrapper3 .onestop-box .onestop-link a.onestoplink p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 45px;
+}
+.wrapper3 .onestop-box .onestop-link a.onestoplink:hover p {
+    text-decoration: underline;
+}
+.wrapper3 .onestop-box .linkbar {
+    width: fit-content;
+    margin: 0 auto;
+}
 
+.wrapper3 .rightbox {
+    width: 400px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 25px;
+    float: right;
+} 
+.wrapper3 .rightbox a.notice-title {
+    float: right;
+    margin-bottom: 29px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.wrapper3 .notice-box .notice-list a {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+.wrapper3 .notice-box .notice-list a:hover {
+    text-decoration: underline;
+}
+.wrapper3 .notice-box .notice-list a span {
+    display: block;
+    float: right;
+    color: gray;
+    font-size: 13px;
+    line-height: 1.8em;
+}
+.wrapper3 .notice-box .notice-list a:hover span {
+    text-decoration: underline;
+}
+/* --------------------원스톱서비스 끝------------------------------ */
+.wrapper3 .box24 {
+    padding: 20px 20px;
+}
+.wrapper3 .leftbox .loginbox {
+    float: left;
+    /* border: 1px solid #000; */
+    background: url("image/main/main-ico-subsidy.png") no-repeat left top;
+}
+.wrapper3 .leftbox .loginbox h2 {
+    text-indent: 45px;
+    line-height: 40px;
+}
+.wrapper3 .leftbox .loginbox .login {
+    /* border: 1px solid red; */
+    width: 200px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.wrapper3 .leftbox .loginbox .login h5 {
+    font-size: 13px;
+    line-height: 1.6em;
+}
+.wrapper3 .leftbox .loginbox .login a {
+    display: block;
+    margin-top: 20px;
+}
+.wrapper3 .leftbox .linkbox {
+    float: left;
+    /* border: 1px solid #000; */
+    margin-left: 10px;
+}
+.wrapper3 .leftbox .linkbox .arrow {
+/* border: 1px solid #000; */
+opacity: 0.8;
+margin: 13px;
+}
+.wrapper3 .leftbox .linkbox .link {
+    /* border: 1px solid #000; */
+    border-radius: 15px;
+    display: block;
+    width: 162px;
+    height: 170px;
+    float: left;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.4em;
+    padding: 15px;
+}
+.wrapper3 .leftbox .linkbox .link1 {
+    background: #fff8e4;
+    color: #000000a9;
+}
+.wrapper3 .leftbox .linkbox .link1 p{
+    font-weight: normal;
+}
+.wrapper3 .leftbox .linkbox .link1 p.page {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 16px;
+    width: fit-content;
+    color: #ffffff;
+    background: #0000007a;
+    border-radius: 20px;
+}
+.wrapper3 .leftbox .linkbox .link2 {
+    background: url("image/main/main-subsidy-check-bg.png") no-repeat right bottom;
+    background-color: #1177d3;
+    margin-right: 20px;
+}
+.wrapper3 .leftbox .linkbox .link2 img {
+    display: block;
+    margin: 25px auto;
+}
+.wrapper3 .leftbox .linkbox .link3 {
+    background: url("image/main/main-subsidy-check-bg.png") no-repeat right bottom;
+    background-color: #008765;
+}
+.wrapper3 .leftbox .linkbox .link3 img {
+    display: block;
+    margin: 25px auto;
+}
