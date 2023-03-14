@@ -1,5 +1,6 @@
 body {
     height: 3000px;
+    /* position: relative; */
 }
 header {
     width: 100%;
@@ -80,6 +81,7 @@ header .hdwrap2 .linkwrap .rightlink a.zoom2 {
 header .hdwrap3 {
     width: 1280px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 header .hdwrap3 nav {
     display: flex;
@@ -97,16 +99,18 @@ header .hdwrap3 nav ul.menubar {
 }
 header .hdwrap3 nav ul.menubar li {
     float: left;
-    line-height: 80px;
+    /* line-height: 80px; */
     margin-right: 70px;
     /* border: 1px solid #000;  */
 }
-header .hdwrap3 nav ul.menubar li a {
+header .hdwrap3 nav ul.menubar li a.menu {
     display: block;
-    height: 75px;
+    padding: 25px 0;
+    /* height: 75px; */
     /* border: 1px solid #000; */
+    border-bottom: 4px solid #fff;
 }
-header .hdwrap3 nav ul.menubar li:hover a{
+header .hdwrap3 nav ul.menubar li:hover a.menu{
     color: #006ae2;
     border-bottom: 4px solid #006ae2;
 }
@@ -118,7 +122,7 @@ header .hdwrap3 nav .firstvisit {
     height: 35px;
     background-color: #eb193a;
     display: flex;
-    margin-top: 18px;
+    margin-top: 20px;
     border-radius: 20px;
 }
 header .hdwrap3 nav .firstvisit img {
@@ -139,4 +143,78 @@ header .hdwrap3 nav .firstvisit span {
     background-position: -105px -60px;
     margin-top: 5px;
     margin-left: 5px;
+}
+header .hdwrap3 nav .firstvisit:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* ----------------------header 세번째라인 끝---------------------- */
+header .hdwrap3 nav ul.menubar li .droparea {
+    position: absolute;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 390px;
+    background: #fff;
+    border-bottom: 3px solid #033075; 
+}
+header .hdwrap3 nav ul.menubar li:hover .droparea {
+   display: flex;
+
+}
+header .hdwrap3 nav ul.menubar li .droparea .bgimg {
+    width: 500px;
+    /* border: 1px solid #000; */
+    font-size: 30px;
+    color: #033075; 
+}
+header .hdwrap3 nav ul.menubar li .droparea #svc {
+    background: url("image/header/ico-gnb-m1.png") no-repeat 300px 85px;
+}
+header .hdwrap3 nav ul.menubar li .droparea #spt {
+    background: url("image/header/ico-gnb-m5.png") no-repeat 300px 85px;
+}
+header .hdwrap3 nav ul.menubar li .droparea #info {
+    background: url("image/header/ico-gnb-m3.png") no-repeat 300px 85px;
+}
+header .hdwrap3 nav ul.menubar li .droparea #call {
+    background: url("image/header/ico-gnb-m4.png") no-repeat 300px 85px;
+}
+header .hdwrap3 nav ul.menubar li .droparea #my {
+    background: url("image/header/ico-gnb-m2.png") no-repeat 300px 85px;
+}
+header .hdwrap3 nav ul.menubar li .droparea .bgimg p {
+    width: fit-content;
+    display: block;
+    margin-left: 320px;
+    margin-top: 230px;
+}
+header .hdwrap3 nav ul.menubar li .droparea .contents {
+    display: flex;
+    width: 720px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+}
+header .hdwrap3 nav ul.menubar li .droparea .contents .service {
+    margin-top: 35px;
+}
+header .hdwrap3 nav ul.menubar li .droparea .contents .service a {
+    display: block;
+    width: 210px;
+    font-size: 15px;
+    color: #000;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.6);
+    padding: 8px 0;
+    text-align: left;
+    text-indent: 10px;
+    margin: 0px auto 10px;
+}
+header .hdwrap3 nav ul.menubar li .droparea .contents div a:hover {
+    color: #006ae2;
+}
+header .hdwrap3 nav ul.menubar li .droparea .contents div a.title {
+    background: #c8e2ff;
+    border-radius: 15px;
+
 }
