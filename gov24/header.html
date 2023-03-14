@@ -7,124 +7,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" rel="stylesheet"></head>
     <link rel="stylesheet" href="../common.css">
-<style>
-    .clearfix::after {
-    content: '';
-    display: block;
-    clear: both;
-    }
-    .header{
-        width: 100%;
-        
-    }
-    .header #top{
-        width: 100%;
-        margin: 10px;
-        margin-left: 205px; 
-        font-size: 0.8em;
-        font-weight: 1000;
-        color: #777
-    }
-    .header #mid{
-       height: 33px;
-        width: 100%;
-        background: #033075;         
-    }
-    .header #mid #mid-p{
-        position: absolute; 
-        right: 14%;;        
-    }
-    .header .mid-left li{
-        float: left;
-        border-right: white solid 1px;
-        color: white;
-        width: 131px;
-        height: 15px;
-        font-size: 0.8em;
-        font-weight: 1000;
-        margin-top: 8px;
-        margin-left: 150px; 
-    }
-    .header .mid-left li:nth-child(2){
-        margin-left: 20px;
-        border:none
-    }
-    .header .mid-left a{
-        letter-spacing: -1px;
-        text-align: center;       
-    }
-    .header .mid-left span{
-        font-size: 0.7em;
-        margin-left: 3px;
-    }
-    .header .mid-right li{    
-        float:left;
-        border-right: 1px white solid;
-        height: 15px;
-        color: white;
-        margin-top: 8px;
-        padding: 0px 15px;
-        font-size: 0.8em;
-        font-weight: 1000;
-        width: 80px;
-        position: relative;
-        left:420px;
-        width: fit-content;       
-    }
-    .header .mid-right li:nth-child(5){
-        border:none
-    }
-    .header .mid-right a{
-        letter-spacing: -1px;
-        text-align: center;
-    }
-    .header #bot{
-    }
-    .header #bot .gov-img{
-        width: 20%;
-        height: 100px;
-        float: left;
-    }
-    .header #bot .bot-right{
-        float: left;
-        height: 100px;
-        width: 80%;
-        position: relative;
-        left: 35px;
-
-    }
-    .header #bot .bot-right li{
-        float: left;
-        margin: 35px 30px 35px ;
-        font-size: 1.3em;
-        font-weight: 600;
-    }
-    .header #bot .bot-right input{
-        border: 3px solid #3352a4;
-        border-radius: 30px;
-        width: 300px;
-        height: 45px;
-        position: relative;
-        top: 25px;
-        left: 35px;
-    }
-    .header #bot .bot-right .menu-hv{
-        display: none;
-        
-    }
-    .header #bot .bot-right:hover .menu-hv{
-        display: block;
-        
-    }
-    #body #m-menu #b-head #r-m-menu{
-        border: 1px solid red;
-        width: 20px;
-        height: 20px;
-    }
-    
-
-
-</style>
+    <link rel="stylesheet" href="../gov24/header.css">
 
     <body>
     <section>
@@ -152,6 +35,14 @@
                 </ul> 
                 <ul class="bot-right">
                     <li class="h-menu">서비스</li>
+                        <ul class = "menubar">
+                            <li><a href="#">링크</a></li>
+                            <li><a href="#">링크</a></li>
+                            <li><a href="#">링크</a></li>
+                            <li><a href="#">링크</a></li>
+                            <li><a href="#">링크</a></li>
+                            <li><a href="#">링크</a></li>
+                        </ul>
                     <li class="h-menu">보조금24</li>
                        
                     <li class="h-menu">정책정보</li>
@@ -159,90 +50,6 @@
                     <li class="h-menu">고객센터</li>   
                     <li class="h-menu">MyGOV</li>
                     <input type="text">
-                    
-                <div id="menu">
-                    <div class="menu-hv">
-                        <ul>
-                            <li>사진</li>
-                            <li>서비스</li>
-                        </ul>  
-                        <ul>
-                            <li>민원선택</li>
-                            <li>신청·조회·발급</li>
-                        </ul>
-                        <ul>
-                            <li>서비스신청</li>
-                            <li>원스톱/생애주기/꾸러미서비스</li>
-                            <li>연령/대상별 서비스</li>
-                            <li>분야별서비스</li>
-                            <li>기업단체 서비스</li>
-                            <li>외국인 서비스</li>
-                        </ul>
-                        <ul>
-                            <li>간편확인/안내</li>
-                            <li>사실/진위확인</li>
-                            <li>행정정보공동이용(e하나로민원)</li>
-                            <li>공공자원공유</li>
-                            <li>돌봄시설 등 위치 찾기</li>
-                        </ul>
-                    </div>
-                    <div class="menu-hv">
-                        <ul>
-                            <li>사진</li>
-                            <li>보조금24</li>
-                        </ul>  
-                        <ul>
-                            <li>보조금24란</li>
-                            <li>나의 혜택</li>
-                            <li>간편 찾기</li>
-                            <li>전체 혜택</li>
-                        </ul>
-                    </div>
-
-                    <div class="menu-hv">
-                        <ul>
-                            <li>사진</li>
-                            <li>정책정보</li>
-                        </ul>  
-                        <ul>
-                            <li>분야별 정책정보</li>
-                            <li>정부/지자체 조직도</li>
-                            <li>정부/지자체 운영누리집</li>
-                            <li>행정기관위원회</li>
-                            <li>지자체소식</li>
-                            <li>공모전</li>
-                        </ul>
-                    </div>
-
-                    <div class="menu-hv">
-                        <ul>
-                            <li>사진</li>
-                            <li>고객센터</li>
-                        </ul>  
-                        <ul>
-                            <li>정부24 이용방법</li>
-                            <li>공지사항</li>
-                            <li>자료실</li>
-                            <li>서비스지원</li>
-                            <li>자주묻는질문(FAQ)</li>
-                            <li>상담예약</li>
-                        </ul>
-                    </div >
-
-                    <div class="menu-hv">
-                        <ul>
-                            <li>사진</li>
-                            <li>My GOV</li>
-                        </ul>  
-                        <ul>
-                            <li>나의 서비스</li>
-                            <li>전자문서지갑</li>
-                            <li>나의 생활정보</li>
-                            <li>나의 상담</li>
-                            <li>나의 회원정보</li>
-                            <li>나의 인증관리</li>
-                        </ul>
-                    </div>
                 </div>    
                 </ul>    
             </div>
