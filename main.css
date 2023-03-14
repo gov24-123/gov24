@@ -1,5 +1,4 @@
 body {
-    height: 3000px;
     font-size: 14px;
 }
 .wrapper {
@@ -575,7 +574,25 @@ margin: 13px;
     width: 400px;
     border: 1px solid rgba(211, 211, 211, 0.658);
     border-radius: 20px;
-    padding: 25px;
+    padding: 30px 25px 19px;
+}
+.wrapper5 .video-box .title-line {
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.wrapper5 .video-box .video {
+    width: 100%;
+}
+.wrapper5 .video-box .video a img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+}
+.wrapper5 .video-box .video a p {
+    font-weight: 700;
 }
 .wrapper5 .news-box {
     width: 400px;
@@ -583,9 +600,94 @@ margin: 13px;
     border-radius: 20px;
     padding: 25px;
 }
+.wrapper5 .news-box .title-line {
+    border-bottom: 1px solid rgba(211, 211, 211, 0.658);   
+    padding-bottom: 17px;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+}
+.wrapper5 .news-box .title-line a{
+    margin-right: 5px;
+    padding-bottom: 15px;
+    color: gray;
+    cursor: pointer;
+}
+.wrapper5 .news-box .title-line a:hover {
+    color: #000;
+    text-decoration: underline;
+    border-bottom: 2px solid #000;
+}
+.wrapper5 .news-box .title-line a:last-child {
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+}
+.wrapper5 .news-box .title-line a:last-child:hover {
+    text-decoration: none;
+    border: none;
+}
+.wrapper5 .news-box .newscontents a {
+    font-size: 13px;
+    display: block;
+    margin-top: 23px;
+}
+.wrapper5 .news-box .newscontents a:hover {
+    text-decoration: underline;
+}
+
+.wrapper5 .news-box .newscontents a span {
+    display: block;
+    color: gray;
+    padding-top: 10px;
+}
 .wrapper5 .banner-box {
     width: 400px;
     border: 1px solid rgba(211, 211, 211, 0.658);
     border-radius: 20px;
     padding: 25px;
+    background: url("image/main/SB_20230306.png") no-repeat center / cover;
+    position: relative;
+}
+.wrapper5 .banner-box:hover {
+    cursor: pointer;
+}
+.wrapper5 .banner-box .nextbtn {
+    color: #ffffff;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #0000007b;
+    border-radius: 30px;
+    padding: 0 10px;
+}
+.wrapper5 .banner-box .nextbtn > div {
+    font-weight: 600;
+    letter-spacing: 3px;
+    width: fit-content;
+    float: left;
+    line-height: 30px;
+    padding: 0 3px;
+}
+.wrapper5 .banner-box .nextbtn a {
+    width: 10px;
+    height: 30px;
+    display: block;
+    float: left;
+    padding: 0 10px;
+}
+.wrapper5 .banner-box .nextbtn a#pre {
+    background: url("image/main/white-swiper.png") no-repeat center;
+}
+.wrapper5 .banner-box .nextbtn a#play {
+    background: url("image/main/ico-swiper-play.png") no-repeat center;
+}
+.wrapper5 .banner-box .nextbtn a#next {
+    background: url("image/main/white-swiper.png") no-repeat center;
+    transform: rotate(180deg);
 }
