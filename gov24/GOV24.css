@@ -1,0 +1,222 @@
+
+
+        .clearfix::after {
+        content: '';
+        display: block;
+        clear: both;
+        }
+        #body{
+            width: 1900px;
+            
+        }
+        #body #menu1{
+            height: 40px;
+            background:rgb(235, 233, 233);
+            border: 0.1px solid rgb(206, 194, 194);
+        }
+        #body #menu1 #r-title {
+            display: flex;
+           justify-content: flex-end;
+           padding-right: 201px;
+        }
+       
+        #body #menu1 #r-title li a{
+            float: left;
+            margin-left: 3px;
+            font-size: 0.8em;
+            line-height: 40px;
+        }
+        #body #l-menu1{
+            width: 240px;
+            margin: 30px 0px 0px 338px;
+            float: left;
+
+        }
+        #body #t-head{
+            border-bottom: 2px black solid;
+        }
+        #body #t-head li{
+            font-size: 1.5em;
+            font-weight: 600;
+            margin-bottom: 12px;
+            letter-spacing: -3px;
+        }
+        #body .m-head{
+            padding: 13px 0;
+            border-bottom: 1px #999 solid;
+
+            border-top: 1px #999 solid;
+
+        }
+        #body .m-head a{
+            font-weight: 540;
+        }
+        #body .l-body{
+            background:#f5f5f5;
+           
+            
+        }
+        #body .l-body li{
+        padding: 0px 0 3px 15px;
+        height: 30px;
+
+        }
+        #body .l-body li a{
+            border-bottom: 0.1px solid #ccc;
+            width: 200px;
+            line-height: 30px;
+            color: rgb(51, 51, 51);
+            display: block;
+            
+        }
+
+        #body .l-body li:hover{
+            width: 240px;
+            background: #f44336;
+        }
+        #body .l-body li:hover a{
+            color: white;
+            text-decoration:underline;
+        }
+        #body .l-body li:nth-child(3){
+            border-bottom: 0;
+        }
+        #body .l-body #delete{
+            border-bottom: 0;
+
+        }
+
+        #body .l-body a{
+            font-size: 0.8em;
+        }
+
+        /* m-menu */
+        #body #m-menu{
+            float: left;
+            width: 880px;
+            height: 800px;
+            margin: 31px 0 0 30px;
+            
+        }
+       
+        #body #m-menu .m-menu .m-img{
+            float: left;
+        }
+        #body #m-menu .m-menu #r-m-menu{
+            display: flex;
+            justify-content: flex-end;
+        }
+        #body #m-menu #m-menu2{
+            margin: 20px 0 ;
+            
+            
+        }
+      
+        #body #m-menu #m-menu2 li{
+            width: 292.5px;
+            border: rgb(215, 215, 215) 1px solid;
+            height: 55px;
+            float: left;
+                        text-align: center;
+
+            padding-top: 10px;
+            background: rgb(249, 249, 249);
+            
+        }
+        #body #m-menu #m-menu2 li:hover{
+            background: #294a7f;
+            color: white;
+        }
+        #body #m-menu #m-menu2 li a{
+            margin:  15px auto;
+            line-height: 35px;
+            font-weight: 300;
+            font-size: 0.9em;
+            
+        }
+        #body #m-menu #gov-img{
+            float: left;
+            text-align: center;
+            height: 195px;
+        }
+        #body #m-menu #r-m-menu{
+            border: 1px solid #000;
+            display: flex;
+        }
+        #body #m-menu #r-m-menu li .face{
+            display: block;
+            height: 30px;
+            background-image: url(../img/face.png);
+            width: 30px;
+            
+
+        }
+        #body #m-menu #r-m-menu li .twi{
+            display: block;
+            background-image: url(../img/face.png) ;
+            height: 30px;
+            width: 30px;
+           
+
+        }
+        #body #m-menu #r-m-menu li .clip{
+            display: block;
+            background-image: url(../img/face.png);
+            height: 30px;
+            width: 30px;
+
+        }
+        #body #m-menu #r-m-menu li .print{
+            display: block;
+            background-image: url(../img/face.png);
+            height: 30px;
+            width: 30px;
+
+        }
+        #body #m-menu #gov-img #img1{
+            float: left;
+            width: 880px;
+            height: 110px;
+            
+            padding:40px 0px 10px 0px;
+        }
+       
+        #body #m-menu #gov-img #img1-text{
+            height: 35px;
+            margin: 15px 0;
+        }
+        #m-menu #gov-img li a{
+            margin:3px 0 0 223px;
+            float: left;
+            font-size: 0.9em;
+            line-height: 25px;
+            letter-spacing: -2px;
+        }
+        #m-menu #letter{
+            height: 40px;
+        }
+        #m-menu #letter li{
+            width: 430px;
+            float: left;
+            font-size: 0.64em;
+            line-height: 40px;
+            width: fit-content;
+            align-items: center;
+            margin-left: 30px;
+        }
+        #m-menu #letter #opa{
+            color: #777;
+        }
+
+        #body #b-head{
+            height: 40px;
+            border-bottom: 4px black solid;
+        
+        }
+        #body #b-head li{
+            font-size: 1.5em;
+            font-weight: 600;
+            
+            letter-spacing: -3px;
+        }
+

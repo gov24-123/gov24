@@ -15,32 +15,37 @@
             clear: both;
         }
         section{
-        width: 800px;
-        margin-left:400px;
+        width: 890px;
+        height: 850px;
+        margin-left:590px;
         
         }
         section #title{
+            padding: 40px 0;
             width: 800px;
             height: auto;
             box-direction: line-through ;
 
         }
         section h2{
+            
             font-size: 1.3em;
             font-weight: 800;
             letter-spacing: -2px;
             text-align: center;
             width: 800px;
         }
-        
-        section .middle1{
+      
+     
+        section .middle1 .mid{
+            
             padding-top: 30px;
             
 
         }
         
         section .middle1 .img{
-            width: 13.5%;
+            width: 12.5%;
             /* border: green solid 1px; */
             float:left;
             height: 110px;
@@ -53,24 +58,55 @@
             height: 110px;
 
         }
-        section .middle1 .t-box h3{
-            font-weight: 800;
-            font-size: 0.9em;
-            color: rgb(81, 138, 247);
+        section #middle .t-box1 h3{
+           color:#518af7;
         }
+        section #middle .t-box1 div{
+            background:#518af7;
+
+        }
+        section .middle1 .t-box h3{
+            font-weight: 900;
+            font-size: 0.9em;
+        }
+
         section .middle1 .t-box li{
             list-style:none;
             /* border: red 1px solid; */
             padding: 10px 0px 20px 0px;
+            
 
         }
+        section .middle1 #service{
+            background-image:url("../img/345345345.png");
+            width: 90px;
+            height: 90px;
+        }
+        section .middle1 #service2{
+            background-image:url("../img/234234234234.png");
+            width: 90px;
+            height: 90px;
+        }
+        section .middle1 #service3{
+            background-image:url("../img/123123123.png");
+            width: 90px;
+            height: 90px;
+            background-color: green;
+            border-radius: 50px;
+        }
+
         section .middle1 .t-box a{
             font-size: 0.7em;
         }
+        section .dark h3{
+            color: #003c91;
+        }
+
 
         /* middle 2 */
         section .middle2{
-            
+            margin-top:20px;
+
             float: left;
             margin-left: 11.5%;;
         }
@@ -79,99 +115,169 @@
             height: 130px;
             float: left;
             margin-left:10px;
-            background: rgb(226, 225, 222);
+            background: #f8f8f8;
+            border: 3px solid #f0f0f0;
+
 
         }
         section .middle2 .box h3{
             text-align: center;
             padding: 15px 0px;
-            width: 200px;
-            font-weight: 600;
+            margin-left: 15px;
+            width: 210px;
             font-size: 0.8em;
             color:rgb(77, 102, 148);
+            font-weight: 900;
         }
         section .middle2 .box p{
             font-size: 0.7em;
-            font-weight: 550;
+            font-weight: 500;
             text-align: center;
-            width: 83%;
-            margin-left: 15px;
+            width: 100%;
+            margin-left: 0px;
             height: 56px;
+
         }
         section .middle2 .box div{
             height: 30px;
-            background: rgb(39, 122, 247);
-            width: 212px;
+            width: 236px;
+            margin: 10px 0px;
+            padding-top: 4px;
+
 
         }
-        
+        section .middle2 .t-box2 h3{
+            color: #003c91;
+        }
+        section .middle2 .t-box2 div{
+            background: #003c91;
+        }        
         section .middle2 .box .click{
             /* border: 1px solid; */
-           height: 30px;
+            width: 210px;
+            
            text-align: center;
-           margin-left: 80px;
+           margin-left: 90px;
            color: white;
+           
            font-size: 0.7em;
           
         }
+        section .middle1 #b-mbox{
+            float: left;
+            width: 85%;
+            margin-left: 100px;
+            display: flex;
+            justify-content: space-between;
+            height: 120px;
+            
+            
+        }
+        section .middle1 #b-mbox div{
+            float: left;
+            height: 120px;
+            margin-left: 10px;
+            padding: 7.5px 0px;
+            background: #f8f8f8;
+            border: 3px solid #f0f0f0;
+            
 
+            
+        }
+        section .middle1 #green h3{
+            color:  #47a11c;
+           
+
+
+        }
+        section .middle1 #b-mbox p{
+            text-align: center;
+            margin-top: 8px;
+            color:  #47a11c;
+            font-weight: 450;
+            height: 40px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin: 15px 0;
+            
+
+        }
+        section .middle1 #b-mbox ul{
+            float: left;
+            padding: 12px 0;
+            margin-top: 15px;
+            background: #47a11c;
+
+            
+        }
+        section .middle1 #b-mbox li{
+            text-align: center;
+            font-size: 0.8em;
+            width: 110px;
+            color: white;
+
+        }
+       
     </style>
 </head>
 <body>
     <section>
-        <div id="title">
-          <h2>정부24의 주요 메뉴</h2>
-        </div>
-        <div class="middle1">
-            <div class="img">이미지</div>
-            <div class="t-box">
-                <h3>서비스</h3>
-                <li><a>대한민국 중앙행정기관, 공공기관, 지방자치단체 서비스에 대한 안내와 정부24가<br>
-                    각 기관과 연계하여 신청·발급할 수 있는 서비스를 통합으로 제공합니다.<br>
-                    정부24에서는 약 9만여 건의 서비스가 (정부서비스 약 8만5천건, 민원서비스 약 5천건) 제공되고 있으며,<br>
-                    약 1,000여 건의 서비스 신청·발급이 가능합니다.</a>
-                </li>
-            </div>    
-            <div class="middle2">
-                <div class="box box1">
-                    <h3>신청·조회·발급</h3>
-                    <p>정부서비스와 민원을 정부 24에서 바로 신청·조회·발급하세요.</p>
-                    <div><a class="click">바로가기 ></a></div>
-                </div>
-                <div class="box box2">
-                    <h3>원스톱/생애주기/꾸러미 서비스</h3>
-                    <p>맘편한 임신 서비스 지원 등 <br>원스톱 서비스와 영유아에서<br> 어르신까지 생애주기별 받을 수<br> 있는 서비스를 연령대별, 상황별로<br> 안내 받으세요.</p>
-                    <div ><a class="click">바로가기 ></a></div>
-                </div>
-                <div class="box box3">
-                    <h3>분야별 서비스</h3>
-                    <p>약 8만5천종 정부서비스를 12대 분야로 확인하세요.</p>
-                    <div><a class="click">바로가기 ></a></div>
+        <div>
+            <div id="title">
+            <h2>정부24의 주요 메뉴</h2>
+            </div>
+            <div id=middle>
+            <div class="middle1">
+                <div class="img" id="service"></div>
+                <div class="t-box t-box1">
+                    <h3>서비스</h3>
+                    <li><a>대한민국 중앙행정기관, 공공기관, 지방자치단체 서비스에 대한 안내와 정부24가<br>
+                        각 기관과 연계하여 신청·발급할 수 있는 서비스를 통합으로 제공합니다.<br>
+                        정부24에서는 약 9만여 건의 서비스가 (정부서비스 약 8만5천건, 민원서비스 약 5천건) 제공되고 있으며,<br>
+                        약 1,000여 건의 서비스 신청·발급이 가능합니다.</a>
+                    </li>
+                </div>    
+                <div class="middle2 ">
+                    <div class="box t-box1">
+                        <h3>신청·조회·발급</h3>
+                        <p>정부서비스와 민원을 정부 24에서 바로 신청·조회·발급하세요.</p>
+                        <div><a class="click">바로가기 ></a></div>
+                    </div>
+                    <div class="box t-box1">
+                        <h3>원스톱/생애주기/꾸러미 서비스</h3>
+                        <p>맘편한 임신 서비스 지원 등 원스톱<br> 서비스와 영유아에서 어르신까지<br> 생애주기별 받을 수 있는 서비스를 <br>연령대별, 상황별로안내 받으세요.</p>
+                        <div ><a class="click">바로가기 ></a></div>
+                    </div>
+                    <div class="box t-box1">
+                        <h3>분야별 서비스</h3>
+                        <p>약 8만5천종 정부서비스를 12대<br> 분야로 확인하세요.</p>
+                        <div><a class="click">바로가기 ></a></div>
+                    </div>
                 </div>
             </div>
-            </div>
-        </div>
+        
 
         <!-- 보조금24 -->
-         <div class="middle1">
-              <div class="img">이미지</div>
-              <div class="t-box">
-                  <h3>보조금</h3>
+            <div class="middle1 ">
+              <div class="img mid" id="service2"></div>
+              <div class="t-box mid dark">
+                  <h3>보조금24</h3>
                   <li><a>중앙부처, 지자체, 공공기관에서 현금, 현물, 바우처 이용권 등으로 제공하는 약 1만여 개의 수혜 서비스를 대상으로 나와 가족이 받을 수 있는 정부 혜택을 한 번에 확인하고 신청할 수 있는 맞춤형 서비스입니다.</a>
                   </li>
               </div>    
-              <div class="middle2">
-                  <div class="box box1">
+              <div class="middle2 ">
+                  <div class="box t-box2">
                       <h3>나(가족)의 혜택</h3>
                       <p>함께 사는 가족 뿐만 아니라 함께 살지 않는 가족의 보조금도 확인해 보세요.</p>
                       <div><a class="click">바로가기 ></a></div>
                   </div>
-                  <div class="box box2">
+                  <div class="box t-box2">
                       <h3>간편찾기</h3>
                       <p>로그인하지 않아도 몇가지 정보만 입력하면 조건에 맞는 보조금을 찾을 수 있어요.</p>
                       <div ><a class="click">바로가기 ></a></div>
                   </div>
-                  <div class="box box3">
+                  <div class="box t-box2">
                       <h3>전체혜택</h3>
                       <p>중앙부처, 지자체, 공공기관에서 현금, 현물, 바우처 이용권 등으로 제공하는 약 9,600여개의 수혜서비스를 확인할 수 있어요</p>
                       <div><a class="click">바로가기 ></a></div>
@@ -180,32 +286,42 @@
             </div>
 
 <!-- 정책정보 -->
-<div class="middle1">
-    <div class="img">이미지</div>
-    <div class="t-box">
-        <h3>정책정보</h3>
-        <li><a>정부 기관들의 분야별 정책정보와 정부/지자체 조직도, 정부/지자체 운영누리집, 행정기관위원회, 지자체소식, 공모전 정보를 확인할 수 있습니다.</a>
-        </li>
-    </div>    
-    <div class="middle2">
-        <div class="box box1">
-            <h3>분야별정책정보</h3>
-            <p>함께 사는 가족 뿐만 아니라 함께 살지 않는 가족의 보조금도 확인해 보세요.</p>
-            <div><a class="click">바로가기 ></a></div>
-        </div>
-        <div class="box box2">
-            <h3>간편찾기</h3>
-            <p>로그인하지 않아도 몇가지 정보만 입력하면 조건에 맞는 보조금을 찾을 수 있어요.</p>
-            <div ><a class="click">바로가기 ></a></div>
-        </div>
-        <div class="box box3">
-            <h3>전체혜택</h3>
-            <p>중앙부처, 지자체, 공공기관에서 현금, 현물, 바우처 이용권 등으로 제공하는 약 9,600여개의 수혜서비스를 확인할 수 있어요</p>
-            <div><a class="click">바로가기 ></a></div>
-        </div>
-    </div>
-  </div>
+            <div class="middle1 " >
+                <div class="img mid " id="service3"></div>
+                <div class="t-box mid" id="green">
+                    <h3>정책정보</h3>
+                    <li><a>정부 기관들의 분야별 정책정보와 정부/지자체 조직도, 정부/지자체 운영누리집, 행정기관위원회, 지자체소식, 공모전 정보를 확인할 수 있습니다.</a>
+                    </li>
+                </div>    
+                <div id="b-mbox">
+                    <div>
+                        <p>분야별<br>정책정보</p>
+                        <ul><li class="click">바로가기 ></class=></li></ul>
+                    </div>
+                    <div>
+                        <p>정부/지자체<br>조직도</p>
+                        <ul><li class="click">바로가기 ></class=></li></ul>                    
+                    </div>
+                    <div>
+                        <p>정부/지자체<br>운영누리집</p>
+                        <ul><li class="click">바로가기 ></class=></li></ul>                   
+                    </div>
+                    <div>
+                        <p>행정기관<br>위원회</p>
+                        <ul><li class="click">바로가기 ></class=></li></ul>                   
+                    </div>
+                    <div>
+                        <p>지자체<br>소식</p>
+                        <ul><li class="click">바로가기 ></class=></li></ul>                    
+                    </div>
+                    <div>
+                        <p>공모전</p>
+                        <ul><li class="click">바로가기 ></class=></li></ul>                   
+                    </div>
+                </div>
           </div>
+        </div>  
+     </div>   
     </section>
 </body>
 </html>
