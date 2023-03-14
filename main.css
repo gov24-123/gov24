@@ -371,7 +371,7 @@ body {
 
 .wrapper3 .rightbox {
     width: 400px;
-    border: 1px solid lightgray;
+    border: 1px solid rgba(211, 211, 211, 0.658);
     border-radius: 20px;
     padding: 25px;
     float: right;
@@ -403,43 +403,58 @@ body {
     text-decoration: underline;
 }
 /* --------------------원스톱서비스 끝------------------------------ */
-.wrapper3 .box24 {
-    padding: 20px 20px;
+.wrapper4 {
+    width: 1280px;
+    margin: 40px auto 0;
 }
-.wrapper3 .leftbox .loginbox {
+.wrapper4 .leftbox {
+    width: 840px;
+    border: 1px solid rgba(211, 211, 211, 0.658);
+    border-radius: 20px;
+    padding: 25px 20px 22px;
+    float: left;
+}
+.wrapper4 .leftbox .loginbox {
     float: left;
     /* border: 1px solid #000; */
     background: url("image/main/main-ico-subsidy.png") no-repeat left top;
 }
-.wrapper3 .leftbox .loginbox h2 {
+.wrapper4 .leftbox .loginbox h2 {
+    font-weight: 700;
+    font-size: 18px;
     text-indent: 45px;
-    line-height: 40px;
+    line-height: 45px;
 }
-.wrapper3 .leftbox .loginbox .login {
+.wrapper4 .leftbox .loginbox .login {
     /* border: 1px solid red; */
-    width: 200px;
-    margin-top: 70px;
+    width: 190px;
+    font-size: 14px;
+    line-height: 1em;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
-.wrapper3 .leftbox .loginbox .login h5 {
+.wrapper4 .leftbox .loginbox .login h5 {
     font-size: 13px;
     line-height: 1.6em;
 }
-.wrapper3 .leftbox .loginbox .login a {
+.wrapper4 .leftbox .loginbox .login a {
     display: block;
     margin-top: 20px;
 }
-.wrapper3 .leftbox .linkbox {
+.wrapper4 .leftbox .loginbox .login a:hover {
+    text-decoration: underline;
+}
+.wrapper4 .leftbox .linkbox {
     float: left;
     /* border: 1px solid #000; */
-    margin-left: 10px;
+    margin-left: 15px;
 }
-.wrapper3 .leftbox .linkbox .arrow {
+.wrapper4 .leftbox .linkbox .arrow {
 /* border: 1px solid #000; */
 opacity: 0.8;
 margin: 13px;
 }
-.wrapper3 .leftbox .linkbox .link {
+.wrapper4 .leftbox .linkbox .link {
     /* border: 1px solid #000; */
     border-radius: 15px;
     display: block;
@@ -452,39 +467,125 @@ margin: 13px;
     line-height: 1.4em;
     padding: 15px;
 }
-.wrapper3 .leftbox .linkbox .link1 {
+.wrapper4 .leftbox .linkbox .link2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.wrapper4 .leftbox .linkbox .link3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.wrapper4 .leftbox .linkbox .link1:hover p {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.wrapper4 .leftbox .linkbox .link1 {
     background: #fff8e4;
     color: #000000a9;
     padding-top: 30px;
 
 }
-.wrapper3 .leftbox .linkbox .link1 p{
+.wrapper4 .leftbox .linkbox .link1 p.detail {
     font-weight: normal;
     line-height: 2;
 }
-.wrapper3 .leftbox .linkbox .link1 p.page {
+.wrapper4 .leftbox .linkbox .link1 p.page {
     display: block;
     margin: 5px auto;
-    padding: 2px 16px;
+    font-weight: normal;
+    padding: 5px 17px;
     width: fit-content;
     color: #ffffff;
     background: #0000007a;
     border-radius: 20px;
 }
-.wrapper3 .leftbox .linkbox .link2 {
+.wrapper4 .leftbox .linkbox a.link:hover p.page {
+    text-decoration: none;
+}
+.wrapper4 .leftbox .linkbox .link2 {
     background: url("image/main/main-subsidy-check-bg.png") no-repeat right bottom;
     background-color: #1177d3;
-    margin-right: 20px;
+    margin-left: 7px;
+    margin-right: 23px;
 }
-.wrapper3 .leftbox .linkbox .link2 img {
+.wrapper4 .leftbox .linkbox .link2 img {
     display: block;
     margin: 25px auto;
 }
-.wrapper3 .leftbox .linkbox .link3 {
+.wrapper4 .leftbox .linkbox .link3 {
     background: url("image/main/main-subsidy-check-bg.png") no-repeat right bottom;
     background-color: #008765;
 }
-.wrapper3 .leftbox .linkbox .link3 img {
+.wrapper4 .leftbox .linkbox .link3 img {
     display: block;
     margin: 25px auto;
+}
+.wrapper4 .rightbox {
+    width: 400px;
+    border: 1px solid rgba(211, 211, 211, 0.658);
+    border-radius: 20px;
+    padding: 25px;
+    float: right;
+} 
+.wrapper4 .mydata {
+    background: #f5f9ff;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+}
+.wrapper4 .mydata a {
+    display: block;
+    width: 50%;
+    text-align: center;
+    color: #000000ad;
+}
+.wrapper4 .mydata a:hover {
+    text-decoration: underline;
+}
+.wrapper4 .mydata a#mydata {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e1edfd;
+}
+.wrapper4 .mydata a#guppi {
+    padding-bottom: 30px;
+    border-left: 1px solid #e1edfd;
+    border-bottom: 1px solid #e1edfd;
+}
+.wrapper4 .mydata a#wallet {
+    padding-top: 30px;
+    border-top: 1px solid #e1edfd;
+}
+.wrapper4 .mydata a#location {
+    padding-top: 30px;
+    border-top: 1px solid #e1edfd;
+    border-left: 1px solid #e1edfd;
+}
+.wrapper4 .mydata a img {
+    display: block;
+    margin: 0 auto 15px;
+}
+/* ----------------------보조금24 영역 끝-------------------------- */
+.wrapper5 {
+    width: 1280px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between
+}
+.wrapper5 .video-box {
+    width: 400px;
+    border: 1px solid rgba(211, 211, 211, 0.658);
+    border-radius: 20px;
+    padding: 25px;
+}
+.wrapper5 .news-box {
+    width: 400px;
+    border: 1px solid rgba(211, 211, 211, 0.658);
+    border-radius: 20px;
+    padding: 25px;
+}
+.wrapper5 .banner-box {
+    width: 400px;
+    border: 1px solid rgba(211, 211, 211, 0.658);
+    border-radius: 20px;
+    padding: 25px;
 }
