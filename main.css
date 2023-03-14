@@ -455,14 +455,17 @@ margin: 13px;
 .wrapper3 .leftbox .linkbox .link1 {
     background: #fff8e4;
     color: #000000a9;
+    padding-top: 30px;
+
 }
 .wrapper3 .leftbox .linkbox .link1 p{
     font-weight: normal;
+    line-height: 2;
 }
 .wrapper3 .leftbox .linkbox .link1 p.page {
     display: block;
-    margin: 10px auto;
-    padding: 5px 16px;
+    margin: 5px auto;
+    padding: 2px 16px;
     width: fit-content;
     color: #ffffff;
     background: #0000007a;
