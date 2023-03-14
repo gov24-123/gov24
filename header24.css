@@ -1,10 +1,12 @@
 body {
     height: 3000px;
-    /* position: relative; */
+
 }
 header {
     width: 100%;
-    box-shadow: 10px 0 15px rgb(157, 171, 207);
+    box-shadow: 1px 3px 10px rgba(3,48,117,.3);
+    position: relative;
+    z-index: 9999;
 }
 header .hdwrap1 {
     width: 1280px;
