@@ -1,7 +1,4 @@
-body {
-    height: 3000px;
 
-}
 header {
     width: 100%;
     box-shadow: 1px 3px 10px rgba(3,48,117,.3);
@@ -157,13 +154,23 @@ header .hdwrap3 nav ul.menubar li .droparea {
     display: none;
     width: 100%;
     height: 390px;
-    background: #fff;
+    /* background: #fff; */
     border-bottom: 3px solid #033075; 
+    z-index: 2;
 }
 header .hdwrap3 nav ul.menubar li:hover .droparea {
    display: flex;
 
 }
+header .hdwrap3 nav ul.menubar li:hover .droparea-back {
+    position: absolute;
+    left: 0;
+    top: 150px;
+    width: 100%;
+    height: 380px;
+    background: #fff;
+    z-index: 1;
+} 
 header .hdwrap3 nav ul.menubar li .droparea .bgimg {
     width: 500px;
     /* border: 1px solid #000; */
@@ -209,7 +216,7 @@ header .hdwrap3 nav ul.menubar li .droparea .contents .service a {
     border-bottom: 1px solid rgba(211, 211, 211, 0.6);
     padding: 8px 0;
     text-align: left;
-    text-indent: 10px;
+    padding-left: 10px;
     margin: 0px auto 10px;
 }
 header .hdwrap3 nav ul.menubar li .droparea .contents div a:hover {
@@ -218,5 +225,6 @@ header .hdwrap3 nav ul.menubar li .droparea .contents div a:hover {
 header .hdwrap3 nav ul.menubar li .droparea .contents div a.title {
     background: #c8e2ff;
     border-radius: 15px;
-
+    text-align: center;
+    padding-left: 0;
 }
