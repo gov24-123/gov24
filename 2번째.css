@@ -1,0 +1,220 @@
+
+
+section{
+width: 890px;
+margin-left:590px;
+
+}
+section #title{
+    padding: 40px 0;
+    width: 800px;
+    height: auto;
+    box-direction: line-through ;
+    
+
+}
+section #h2{
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: center;
+    width:fit-content;
+    background: white;
+    margin-left: 340px;
+    display: block;
+    padding: 0 15px;
+
+}
+section #title div{
+    background: url("img/bg_mid_line.gif") repeat-x center;
+    width: 850px;
+
+}
+
+
+section .middle1 .mid{
+    
+    padding-top: 30px;
+    
+
+}
+
+
+section .middle1 .img{
+    width: 12.5%;
+    /* border: green solid 1px; */
+    float:left;
+    height: 110px;
+
+}
+section .middle1 .t-box{
+    width: 85%;
+    /* border:1px orange solid; */
+    float:left;
+    height: 110px;
+
+}
+section #middle .t-box1 h3{
+   color:#518af7;
+}
+section #middle .t-box1 div{
+    background:#518af7;
+
+}
+section .middle1 .t-box h3{
+    font-weight: 900;
+    font-size: 0.9em;
+    padding-left: 15px;
+
+}
+
+section .middle1 .t-box li{
+    list-style:none;
+    /* border: red 1px solid; */
+    padding: 10px 0px 20px 0px;
+    padding-left: 15px;
+
+    
+
+}
+section .middle1 #service{
+    background-image:url("../img/345345345.png");
+    width: 90px;
+    height: 90px;
+}
+section .middle1 #service2{
+    background-image:url("../img/234234234234.png");
+    width: 90px;
+    height: 90px;
+}
+section .middle1 #service3{
+    background-image:url("../img/123123123.png");
+    width: 90px;
+    height: 90px;
+    background-color: green;
+    border-radius: 50px;
+}
+
+section .middle1 .t-box a{
+    font-size: 0.7em;
+
+}
+section .dark h3{
+    color: #003c91;
+}
+
+
+/* middle 2 */
+section .middle2{
+    margin-top:20px;
+
+    float: left;
+    margin-left: 11.5%;;
+}
+section .middle2 .box{
+    width: 30%;
+    height: 130px;
+    float: left;
+    margin-left:10px;
+    background: #f8f8f8;
+    border: 3px solid #f0f0f0;
+
+
+}
+section .middle2 .box h3{
+    text-align: center;
+    padding: 15px 0px;
+    margin-left: 15px;
+    width: 210px;
+    font-size: 0.8em;
+    color:rgb(77, 102, 148);
+    font-weight: 900;
+}
+section .middle2 .box p{
+    font-size: 0.7em;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+    height: 56px;
+
+}
+section .middle2 .box div{
+    height: 30px;
+    width: 236px;
+    margin: 10px 0px;
+    padding-top: 4px;
+
+
+}
+section .middle2 .t-box2 h3{
+    color: #003c91;
+}
+section .middle2 .t-box2 div{
+    background: #003c91;
+}        
+section .middle2 .box .click{
+    /* border: 1px solid; */
+    width: 210px;
+    
+   text-align: center;
+   margin-left: 90px;
+   color: white;
+   
+   font-size: 0.7em;
+  
+}
+section .middle1 #b-mbox{
+    float: left;
+    width: 85%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    
+    
+}
+section .middle1 #b-mbox div{
+    float: left;
+    height: 120px;
+    margin-left: 10px;
+    padding: 7.5px 0px;
+    background: #f8f8f8;
+    border: 3px solid #f0f0f0;
+    
+
+    
+}
+section .middle1 #green h3{
+    color:  #47a11c;
+   
+
+
+}
+section .middle1 #b-mbox p{
+    text-align: center;
+    margin-top: 8px;
+    color:  #47a11c;
+    font-weight: 450;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    
+
+}
+section .middle1 #b-mbox ul{
+    float: left;
+    padding: 12px 0;
+    margin-top: 15px;
+    background: #47a11c;
+
+    
+}
+section .middle1 #b-mbox li{
+    text-align: center;
+    font-size: 0.8em;
+    width: 110px;
+    color: white;
+
+}
