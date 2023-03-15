@@ -6,9 +6,11 @@
         clear: both;
         }
         #body{
-            width: 1900px;
+            width: 1800px;
+            margin: 0 auto;
             
         }
+      
         #body #menu1{
             height: 40px;
             background:rgb(235, 233, 233);
@@ -28,12 +30,13 @@
         }
         #body #l-menu1{
             width: 240px;
-            margin: 30px 0px 0px 338px;
+            margin: 30px 0px 0px 300px;
             float: left;
 
         }
         #body #t-head{
             border-bottom: 2px black solid;
+            margin-left: ;
         }
         #body #t-head li{
             font-size: 1.5em;
@@ -74,6 +77,10 @@
             width: 240px;
             background: #f44336;
         }
+        #body .l-body #orange1{
+            background: #f44336;
+
+        }
         #body .l-body li:hover a{
             color: white;
             text-decoration:underline;
@@ -85,7 +92,7 @@
             border-bottom: 0;
 
         }
-
+      
         #body .l-body a{
             font-size: 0.8em;
         }
@@ -140,7 +147,6 @@
             height: 195px;
         }
         #body #m-menu #r-m-menu{
-            border: 1px solid #000;
             display: flex;
         }
         #body #m-menu #r-m-menu li .face{
@@ -156,6 +162,7 @@
             background-image: url(../img/face.png) ;
             height: 30px;
             width: 30px;
+            background-position: 0 -50px;
            
 
         }
@@ -164,13 +171,19 @@
             background-image: url(../img/face.png);
             height: 30px;
             width: 30px;
-
+            background-position: 0 -400px;
         }
         #body #m-menu #r-m-menu li .print{
             display: block;
             background-image: url(../img/face.png);
             height: 30px;
             width: 30px;
+            background-position: 0 -200px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            width: 26px;
+            height: 26px;
+            
 
         }
         #body #m-menu #gov-img #img1{
