@@ -53,9 +53,23 @@ section1 #page .box5 h2{
     letter-spacing: -1.0px;
     font-weight: bolder;
     line-height: 20px;
+    padding: 0px 5px;
 }
 section1 #page .box5 .p{
     margin: 10px  0 0 13px;
     font-size: 0.8em;
     letter-spacing: -1.6px;
+}
+section1 #header11 div{
+    background: url("img/bg_mid_line.gif") repeat-x center;
+    width: 850px;
+}
+section1 #header11 h1{
+    font-weight: 700;
+    text-align: center;
+    width:fit-content;
+    background: white;
+    margin-left: 340px;
+    display: block;
+    padding: 0 15px;
 }

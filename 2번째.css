@@ -17,11 +17,16 @@ section #h2{
     font-size: 1.3em;
     font-weight: 700;
     text-align: center;
-    width: 800px;
-    margin-left: 50px;
-    background-image: url("img/bg_mid_line.gif") left bottom repeat-x;
+    width:fit-content;
+    background: white;
+    margin-left: 340px;
     display: block;
-    z-index: 9999;
+    padding: 0 15px;
+
+}
+section #title div{
+    background: url("img/bg_mid_line.gif") repeat-x center;
+    width: 850px;
 
 }
 
