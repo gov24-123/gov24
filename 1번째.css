@@ -7,7 +7,7 @@
         }
         #body{
             width: 1800px;
-            margin: 0 auto;
+            margin: 0 1700px 0 0;
             
         }
       
@@ -19,7 +19,8 @@
         #body #menu1 #r-title {
             display: flex;
            justify-content: flex-end;
-           padding-right: 201px;
+           padding-right: 231px;
+           margin-right: 130px;
         }
        
         #body #menu1 #r-title li a{
@@ -27,6 +28,7 @@
             margin-left: 3px;
             font-size: 0.8em;
             line-height: 40px;
+            
         }
         #body #l-menu1{
             width: 240px;
